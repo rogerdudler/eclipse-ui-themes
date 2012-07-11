@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse UI Themes
+Bundle-SymbolicName: com.github.eclipsecolortheme.themes;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.github.eclipsecolortheme.themes.Activator
+Bundle-Vendor: eclipsecolorthemes.org
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.e4.ui.css.swt.theme;bundle-version="0.9.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

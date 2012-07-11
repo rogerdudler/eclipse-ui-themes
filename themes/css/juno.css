@@ -1,0 +1,91 @@
+@import url("e4_basestyle.css");
+
+.MTrimmedWindow { 
+    background-color: #444444;
+}
+
+.MPartStack {
+	font-size: 12;
+	swt-simple: false;
+	swt-mru-visible: false;
+	swt-tab-renderer: url(bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering);
+	swt-unselected-tabs-color: #333333 #333333 #333333 100% 100%;
+    swt-outer-keyline-color: #333333;
+	swt-inner-keyline-color: #333333;
+	swt-mru-visible: false;
+	swt-shadow-visible: false;
+	swt-tab-outline: #444444;
+}
+
+.MPlaceholder {
+	background-color: #333;
+	color: #FFF;
+}
+
+.MTrimBar {
+    background-color: #333;
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+    background-color:  #444444 #111111 100%;	
+}
+
+.MToolControl.TrimStack {
+
+}
+
+.MPartStack.active {
+	swt-unselected-tabs-color: #333333 #444444 100% 100%;
+    swt-outer-keyline-color: #222222;
+	swt-inner-keyline-color: #222222;
+	swt-shadow-visible: false;
+	swt-tab-outline: #222222;
+}
+
+#PerspectiveSwitcher {
+	background-color:  #444444 #111111 100%;
+	eclipse-perspective-keyline-color: #000;
+	color: #FFF;
+}
+
+#org-eclipse-ui-editorss {
+   swt-unselected-tabs-color: #444 #333 #111 100% 100%;
+   swt-outer-keyline-color: #444444;
+   swt-inner-keyline-color: #444444;
+   swt-tab-outline: #000;
+   color: #FFF;
+   swt-tab-height: 8px;
+   padding: 0px 5px 7px;
+}
+
+#org-eclipse-jdt-ui-PackageExplorer {
+	background-color: #333;
+	color: #FFF;
+}
+
+CTabFolder {
+	swt-tab-renderer: url(bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering);
+	swt-unselected-tabs-color: #444444;
+	swt-outer-keyline-color: #444444;
+	swt-inner-keyline-color: #444444;
+	swt-tab-outline: #444444;
+	selected-tab-fill: #222222;
+	swt-shadow-visible: false;
+}
+
+CTabFolder Tree {
+	background-color: #333;
+	color: #FFF;
+}
+CTabFolder Canvas {
+  	background-color: #333;
+  	color: #FFF;
+}
+
+CTabItem {
+	background-color: #333;
+	color: #DDD;
+}
+CTabItem:selected { 
+	color: #FFF;
+}
