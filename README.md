@@ -5,6 +5,10 @@ Includes Dark Juno, an early version of a dark UI theme for Eclipse 4+
 
 Works best with the Eclipse Color Theme plugin and a sexy dark color theme from http://www.eclipsecolorthemes.org
 
+Please follow me on Twitter for Updates
+
+http://twitter.com/rogerdudler
+
 Requirements
 ------------
 
