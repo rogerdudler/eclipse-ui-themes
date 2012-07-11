@@ -26,12 +26,16 @@
     background-color: #333;
 }
 
-.MTrimBar#org-eclipse-ui-main-toolbar {
-    background-color:  #444444 #111111 100%;	
+.MTrimBar CLabel {
+	color: #999999;
 }
 
-.MToolControl.TrimStack {
+.MToolControl CLabel {
+	color: #999999;	
+}
 
+.MTrimBar#org-eclipse-ui-main-toolbar {
+    background-color:  #444444 #111111 100%;	
 }
 
 .MPartStack.active {
@@ -88,4 +92,8 @@ CTabItem {
 }
 CTabItem:selected { 
 	color: #FFF;
+}
+
+Label {
+	color: #999999;
 }
