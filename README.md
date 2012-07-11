@@ -3,12 +3,13 @@ Eclipse UI Themes
 
 Includes Dark Juno, an early version of a dark UI theme for Eclipse 4+
 
-Works best with some dark color theme from http://www.eclipsecolorthemes.org
+Works best with the Eclipse Color Theme plugin and a sexy dark color theme from http://www.eclipsecolorthemes.org
 
 Requirements
 ------------
 
 * Eclipse 4.2+
+* Eclipse Color Theme (http://www.eclipsecolorthemes.org)
 
 Installation
 ------------
