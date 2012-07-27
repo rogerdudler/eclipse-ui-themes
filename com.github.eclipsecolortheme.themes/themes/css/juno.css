@@ -34,6 +34,11 @@
 	color: #999999;	
 }
 
+.MPart Composite {
+	background-color: #333;
+	color: #DDD;
+}
+
 .MTrimBar#org-eclipse-ui-main-toolbar {
     background-color:  #444444 #111111 100%;	
 }
