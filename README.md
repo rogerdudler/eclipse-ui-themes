@@ -20,7 +20,7 @@ Installation
 
 Download the ZIP package and extract it into your eclipse ```dropins``` folder:
 
-https://github.com/downloads/eclipse-color-theme/eclipse-ui-themes/com.github.eclipsecolortheme.themes_1.0.0.201207121019.zip
+https://github.com/downloads/rogerdudler/eclipse-ui-themes/com.github.eclipsecolortheme.themes_1.0.0.201207121019.zip
 
 Restart Eclipse and go to *Preferences > General > Appearance* and choose *Dark Juno*
 
