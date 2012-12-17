@@ -73,7 +73,6 @@
 }
 
 CTabFolder {
-	swt-tab-renderer: url(bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering);
 	swt-unselected-tabs-color: #444444;
 	swt-outer-keyline-color: #444444;
 	swt-inner-keyline-color: #444444;
