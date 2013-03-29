@@ -3,9 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.eclipsecolortheme.themes</groupId>
     <artifactId>com.github.eclipsecolortheme.themes</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0.201207121019.zip</version>
     <build>            
-		<defaultGoal>install</defaultGoal>
+        <defaultGoal>package</defaultGoal>
+
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -15,9 +16,20 @@
                     <target>1.5</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <archive>
+                        <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.eclipse.core</groupId>
