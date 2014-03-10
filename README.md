@@ -30,3 +30,6 @@ License
 Copyright (C) 2012 Roger Dudler
 
 This is open source software, licensed under the Eclipse Public License. See the file COPYING for details.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rogerdudler/eclipse-ui-themes/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
