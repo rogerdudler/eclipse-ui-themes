@@ -101,3 +101,7 @@ CTabItem:selected {
 Label {
 	color: #999999;
 }
+
+#org-eclipse-ui-StatusLine {
+	color: #999999;
+}
